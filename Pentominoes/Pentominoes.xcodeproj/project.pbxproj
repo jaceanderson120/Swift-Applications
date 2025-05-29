@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		141DEADA2C9F1DA300D90F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 141DEAC12C9F1DA200D90F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 141DEAC82C9F1DA200D90F46;
+			remoteInfo = Pentominoes;
+		};
+		141DEAE42C9F1DA300D90F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 141DEAC12C9F1DA200D90F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 141DEAC82C9F1DA200D90F46;
+			remoteInfo = Pentominoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		141DEAC92C9F1DA200D90F46 /* Pentominoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pentominoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		141DEAD92C9F1DA300D90F46 /* PentominoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PentominoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		141DEAE32C9F1DA300D90F46 /* PentominoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PentominoesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		141DEACB2C9F1DA200D90F46 /* Pentominoes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Pentominoes;
+			sourceTree = "<group>";
+		};
+		141DEADC2C9F1DA300D90F46 /* PentominoesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PentominoesTests;
+			sourceTree = "<group>";
+		};
+		141DEAE62C9F1DA300D90F46 /* PentominoesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PentominoesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		141DEAC62C9F1DA200D90F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141DEAD62C9F1DA300D90F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141DEAE02C9F1DA300D90F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141DEAC02C9F1DA200D90F46 = {
+			isa = PBXGroup;
+			children = (
+				141DEACB2C9F1DA200D90F46 /* Pentominoes */,
+				141DEADC2C9F1DA300D90F46 /* PentominoesTests */,
+				141DEAE62C9F1DA300D90F46 /* PentominoesUITests */,
+				141DEACA2C9F1DA200D90F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		141DEACA2C9F1DA200D90F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				141DEAC92C9F1DA200D90F46 /* Pentominoes.app */,
+				141DEAD92C9F1DA300D90F46 /* PentominoesTests.xctest */,
+				141DEAE32C9F1DA300D90F46 /* PentominoesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		141DEAC82C9F1DA200D90F46 /* Pentominoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141DEAED2C9F1DA300D90F46 /* Build configuration list for PBXNativeTarget "Pentominoes" */;
+			buildPhases = (
+				141DEAC52C9F1DA200D90F46 /* Sources */,
+				141DEAC62C9F1DA200D90F46 /* Frameworks */,
+				141DEAC72C9F1DA200D90F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				141DEACB2C9F1DA200D90F46 /* Pentominoes */,
+			);
+			name = Pentominoes;
+			packageProductDependencies = (
+			);
+			productName = Pentominoes;
+			productReference = 141DEAC92C9F1DA200D90F46 /* Pentominoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		141DEAD82C9F1DA300D90F46 /* PentominoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141DEAF02C9F1DA300D90F46 /* Build configuration list for PBXNativeTarget "PentominoesTests" */;
+			buildPhases = (
+				141DEAD52C9F1DA300D90F46 /* Sources */,
+				141DEAD62C9F1DA300D90F46 /* Frameworks */,
+				141DEAD72C9F1DA300D90F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141DEADB2C9F1DA300D90F46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				141DEADC2C9F1DA300D90F46 /* PentominoesTests */,
+			);
+			name = PentominoesTests;
+			packageProductDependencies = (
+			);
+			productName = PentominoesTests;
+			productReference = 141DEAD92C9F1DA300D90F46 /* PentominoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		141DEAE22C9F1DA300D90F46 /* PentominoesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141DEAF32C9F1DA300D90F46 /* Build configuration list for PBXNativeTarget "PentominoesUITests" */;
+			buildPhases = (
+				141DEADF2C9F1DA300D90F46 /* Sources */,
+				141DEAE02C9F1DA300D90F46 /* Frameworks */,
+				141DEAE12C9F1DA300D90F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141DEAE52C9F1DA300D90F46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				141DEAE62C9F1DA300D90F46 /* PentominoesUITests */,
+			);
+			name = PentominoesUITests;
+			packageProductDependencies = (
+			);
+			productName = PentominoesUITests;
+			productReference = 141DEAE32C9F1DA300D90F46 /* PentominoesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		141DEAC12C9F1DA200D90F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					141DEAC82C9F1DA200D90F46 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					141DEAD82C9F1DA300D90F46 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 141DEAC82C9F1DA200D90F46;
+					};
+					141DEAE22C9F1DA300D90F46 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 141DEAC82C9F1DA200D90F46;
+					};
+				};
+			};
+			buildConfigurationList = 141DEAC42C9F1DA200D90F46 /* Build configuration list for PBXProject "Pentominoes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 141DEAC02C9F1DA200D90F46;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 141DEACA2C9F1DA200D90F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				141DEAC82C9F1DA200D90F46 /* Pentominoes */,
+				141DEAD82C9F1DA300D90F46 /* PentominoesTests */,
+				141DEAE22C9F1DA300D90F46 /* PentominoesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		141DEAC72C9F1DA200D90F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141DEAD72C9F1DA300D90F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141DEAE12C9F1DA300D90F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141DEAC52C9F1DA200D90F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141DEAD52C9F1DA300D90F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141DEADF2C9F1DA300D90F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141DEADB2C9F1DA300D90F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 141DEAC82C9F1DA200D90F46 /* Pentominoes */;
+			targetProxy = 141DEADA2C9F1DA300D90F46 /* PBXContainerItemProxy */;
+		};
+		141DEAE52C9F1DA300D90F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 141DEAC82C9F1DA200D90F46 /* Pentominoes */;
+			targetProxy = 141DEAE42C9F1DA300D90F46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		141DEAEB2C9F1DA300D90F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		141DEAEC2C9F1DA300D90F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		141DEAEE2C9F1DA300D90F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pentominoes/Preview Content\"";
+				DEVELOPMENT_TEAM = QRLA33CGCG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.jra5692.Pentominoes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		141DEAEF2C9F1DA300D90F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pentominoes/Preview Content\"";
+				DEVELOPMENT_TEAM = QRLA33CGCG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.jra5692.Pentominoes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		141DEAF12C9F1DA300D90F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRLA33CGCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.jra5692.PentominoesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pentominoes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pentominoes";
+			};
+			name = Debug;
+		};
+		141DEAF22C9F1DA300D90F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRLA33CGCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.jra5692.PentominoesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pentominoes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pentominoes";
+			};
+			name = Release;
+		};
+		141DEAF42C9F1DA300D90F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRLA33CGCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.jra5692.PentominoesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pentominoes;
+			};
+			name = Debug;
+		};
+		141DEAF52C9F1DA300D90F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QRLA33CGCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.jra5692.PentominoesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pentominoes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141DEAC42C9F1DA200D90F46 /* Build configuration list for PBXProject "Pentominoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141DEAEB2C9F1DA300D90F46 /* Debug */,
+				141DEAEC2C9F1DA300D90F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141DEAED2C9F1DA300D90F46 /* Build configuration list for PBXNativeTarget "Pentominoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141DEAEE2C9F1DA300D90F46 /* Debug */,
+				141DEAEF2C9F1DA300D90F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141DEAF02C9F1DA300D90F46 /* Build configuration list for PBXNativeTarget "PentominoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141DEAF12C9F1DA300D90F46 /* Debug */,
+				141DEAF22C9F1DA300D90F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141DEAF32C9F1DA300D90F46 /* Build configuration list for PBXNativeTarget "PentominoesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141DEAF42C9F1DA300D90F46 /* Debug */,
+				141DEAF52C9F1DA300D90F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 141DEAC12C9F1DA200D90F46 /* Project object */;
+}
